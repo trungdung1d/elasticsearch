@@ -1,0 +1,32 @@
+{
+  "engineName": "lazada-products",
+  "endpointBase": "https://8732f32a7b7c478292845ffa5ae9d11c.ent-search.us-central1.gcp.cloud.es.io",
+  "searchKey": "search-kj8q7pijrqkrrczy5zdoky3q",
+  "resultFields": [
+    "originalprice",
+    "ratingscore",
+    "discount",
+    "description",
+    "itemid",
+    "discountedprice",
+    "review",
+    "imageurl",
+    "name",
+    "categories",
+    "page",
+    "producturl",
+    "id"
+  ],
+  "sortFields": [
+    "page",
+    "review"
+  ],
+  "facets": [
+    "categories",
+    "discount",
+    "ratingscore"
+  ],
+  "titleField": "name",
+  "urlField": "imageurl",
+  "thumbnailField": "imageurl"
+}
